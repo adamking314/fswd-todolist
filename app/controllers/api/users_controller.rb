@@ -1,3 +1,4 @@
+module Api  
 class UsersController < ApplicationController
   def create
     user = User.new
