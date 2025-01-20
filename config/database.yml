@@ -21,9 +21,7 @@ test:
   adapter: sqlite3
   database: db/test.sqlite3
 
-default: &default
+production:
+  <<: *default
   adapter: postgresql
-  database: <%= ENV['DATABASE_URL'] %>
-  username: <%= ENV['DATABASE_USERNAME'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  host: <%= ENV['DATABASE_HOST'] %>
+  database: to_do_list_fs
