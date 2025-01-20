@@ -17,11 +17,11 @@
     padding-bottom: 100px;
 }
  h2{
-    color: white;
+    color: white !important;
  }
 
  h1{
-    color: white;
+    color: white m !important;
  }
  .row{
     width: 800px;
@@ -43,7 +43,7 @@
     border-radius: 6px 6px 0px 0px !important;
 }
 #tasks{
-    color: white;
+    color: white !important;
     font-weight: 400;
     font-size: 14px;
 }
@@ -51,7 +51,7 @@
 .table{
     border: 1px solid navy;
     padding: 40px;
-    background-color: lightblue;
+    background-color: lightblue !important;
 }
 
 .table th{
